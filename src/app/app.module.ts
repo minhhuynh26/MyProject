@@ -8,14 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +26,7 @@ import { MainComponent } from './main/main.component';
     MatSliderModule,
     MatMenuModule,
     MatButtonModule,
+    MatCardModule,
     BrowserAnimationsModule
   ],
   providers: [],
